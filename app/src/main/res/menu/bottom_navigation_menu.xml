@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/navInicio"
+        android:enabled="true"
+        android:icon="@drawable/ic_outline_home_24"
+        android:title="@string/inicio" />
+    <item
+        android:id="@+id/navConsumo"
+        android:enabled="true"
+        android:icon="@drawable/ic_outline_bar_chart_24"
+        android:title="@string/consumo" />
+    <item
+        android:id="@+id/navDescubre"
+        android:enabled="true"
+        android:icon="@drawable/ic_baseline_add_circle_outline_24"
+        android:title="@string/descubre" />
+    <item
+        android:id="@+id/navMisProductos"
+        android:enabled="true"
+        android:icon="@drawable/ic_outline_account_box_24"
+        android:title="@string/mis_productos" />
+    <item
+        android:id="@+id/navGestiones"
+        android:enabled="true"
+        android:icon="@drawable/ic_outline_settings_24"
+        android:title="@string/gestiones" />
+
+</menu>
